@@ -23216,7 +23216,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.User = void 0;
 
-var faker_1 = require("@faker-js/faker"); // we no longer need a type definition file for faker cause faker now provides its own type definitions
+var faker_1 = require("@faker-js/faker"); // class User satisfy the Mmappable interface
 
 
 var User =
@@ -23246,7 +23246,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Company = void 0;
 
-var faker_1 = require("@faker-js/faker");
+var faker_1 = require("@faker-js/faker"); // class Company satisfy the Mappable interface
+
 
 var Company =
 /** @class */
